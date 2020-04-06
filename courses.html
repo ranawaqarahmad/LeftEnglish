@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="img/orange.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Left English</title>
+  </head>
+
+  <body>
+    <!-- MAIN HEADER SECTION -->
+    <section id="main-header" class="bg-black p-5">
+      <!-- NAVBAR -->
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <h4 class="orange">Left English</h4>
+          </a>
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-white">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="index.html" class="nav-link text-white">About</a>
+              </li>
+              <li class="nav-item active">
+                <a
+                  href="courses.html"
+                  class="nav-link ml-1 orange font-weight-bold"
+                  >Courses</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#"
+                  class="nav-link text-white"
+                  data-toggle="modal"
+                  data-target="#bookModal"
+                  >Book A Class</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a href="contact.html" class="nav-link text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- HEADER CONTENT -->
+      <div class="container pt-5">
+        <div class="row">
+          <div class="col-md-8 pr-3">
+            <h2 class="text-uppercase orange">
+              Culture Helps Learning
+            </h2>
+
+            <div class="text-white">
+              <h5>
+                Learning Guide that will make English learning easy for you.
+              </h5>
+              <h5>
+                Lets have nam libero tempore, cum soluta nobis…
+              </h5>
+            </div>
+          </div>
+          <div class="col-md-4 pl-5 pt-5">
+            <button
+              class="btn btn-light orange btn-lg text-center out-btn px-5"
+            >
+              BOOK A CLASS?
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SEARCH -->
+    <section id="search" class="p-5 bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="orange font-weight-bold">My Classes & Details</h1>
+          </div>
+          <div class="col-md-6 ml-auto">
+            <div class="input-group">
+              <input
+                type="text"
+                class="form-control srch"
+                placeholder="Search Courses....."
+              />
+              <div class="input-group-append">
+                <button class="btn btn-org">
+                  Search
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="courses" class="p-5">
+      <div class="container">
+        <!-- ROW 1 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Modern American Greetings
+                </h3>
+                <h3 class="float-right pr-2 orange font-weight-bold">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                This class covers common American greetings used in different US
+                regions, age groups and social groups
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 2 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Slang
+                </h3>
+                <h3 class="float-right font-weight-bold pr-2 orange">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Learn commonly used modern slang, complete with examples and
+                how/when to use.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 3 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Swear Words
+                </h3>
+                <h3 class="float-right pr-2 orange font-weight-bold">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Love it or hate it, swear words are a part of learning a
+                language. Learn the most commonly used swear words an insults,
+                when to avoid using them, and what to do if you witness hate
+                speech.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 4 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  American Idioms
+                </h3>
+                <h3 class="float-right pr-2 font-weight-bold orange">
+                  $50 / Hour
+                </h3>
+              </div>
+
+              <p class="pt-3">
+                Learn a wide array of common American idioms, their meanings and
+                when to use them.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 5 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Exclamations and Filler Words
+                </h3>
+                <h3 class="float-right pr-2 orange font-weight-bold">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                This course explores common modern American expressions,
+                exclamations and ller words for a variety of age groups and
+                audiences
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 6 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Texting in English
+                </h3>
+                <h3 class="float-right pr-2 font-weight-bold orange">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Learn American texting etiquette as well as commonly used
+                abbreviations and written expressions
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 7 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Writing emails in English
+                </h3>
+                <h3 class="float-right pr-2 font-weight-bold orange">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Whether you’re writing an email for business or social use, it’s
+                important to know how to construct a good email in English.
+                Includes examples and templates for the student to use.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 8 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Online Dating
+                </h3>
+                <h3 class="float-right pr-2 orange font-weight-bold">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Looking to date an American? Using online dating apps? Learn
+                common dating terminology, tips for interacting with others
+                online and do’s and don’t’s
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 9 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  Navigating Embarrassing Situations
+                </h3>
+                <h3 class="float-right font-weight-bold pr-2 orange">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Oops! Did you just embarrass yourself? That’s okay! We all do.
+                Learn how to recover gracefully and turn an embarrassing
+                situation into a humorous one
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- ROW 10 -->
+        <div class="row">
+          <div class="col">
+            <div class="vid p-3 mb-1">
+              <div class="clearfix">
+                <h3 class="font-weight-bold float-left">
+                  American Dating Etiquette
+                </h3>
+                <h3 class="float-right font-weight-bold pr-2 orange">
+                  $50 / Hour
+                </h3>
+              </div>
+              <p class="pt-3">
+                Learn how to date an American man or woman. Includes information
+                on etiquette, common terminology, names to call your sweetheart
+                as well as things to do and avoid when entering the American
+                dating scene
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- FOOTER -->
+    <footer class="footer bg-black p-3">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="d-flex justify-content-between">
+              <div class="m-2 d-none d-md-block">
+                <h2 class="text-secondary">Left English</h2>
+                <div class=""><i class="fas fa-phone"></i> +44-444-4444</div>
+                <div class="">
+                  <i class="fas fa-enevlope"></i> test@test.com
+                </div>
+              </div>
+
+              <div class="text-secondary m-2">
+                <p>Copyright &copy; <span id="year"></span> Left English</p>
+              </div>
+
+              <div class="m-2">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control text-secondary text-secondary bg-black"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="email"
+                    class="form-control text-secondary bg-black text-secondary"
+                    placeholder="Email"
+                  />
+                </div>
+                <button
+                  class="btn btn-light btn-block orange text-center out-btn d-none d-sm-block"
+                >
+                  Subscribe To My Blog Post
+                </button>
+                <button
+                  class="btn btn-light btn-block orange text-center out-btn btn-sm d-sm-none"
+                >
+                  Subscribe My Blog
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ADD POST MODAL -->
+    <div class="modal fade" id="bookModal">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content vid">
+          <div class="modal-header text-white">
+            <h5 class="modal-title text-uppercase text-dark">
+              Schedual a <span class="orange">class now!</span>
+            </h5>
+            <button class="close" data-dismiss="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- FORM 1 -->
+            <form class="form-inline">
+              <div class="form-group m-1">
+                <label for="full name"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Full Name"
+                />
+              </div>
+
+              <div class="form-group m-1">
+                <label for="Email"></label>
+                <input
+                  type="email"
+                  class="form-control"
+                  placeholder="EmailAddress"
+                />
+              </div>
+
+              <div class="form-group">
+                <select class="form-control">
+                  <option value="">Date Of Birth</option>
+                  <option value="">2001</option>
+                  <option value="">2000</option>
+                  <option value="">1999</option>
+                </select>
+              </div>
+            </form>
+            <!-- FORM 2 -->
+            <form class="form-inline">
+              <div class="form-group m-1">
+                <select class="form-control">
+                  <option value="">Select Nationality</option>
+                  <option value="">Pakistani</option>
+                  <option value="">American</option>
+                  <option value="">Russian</option>
+                </select>
+              </div>
+
+              <div class="form-group m-1">
+                <label for="text"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Current English Level"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="text"></label>
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Target English Level"
+                />
+              </div>
+            </form>
+            <!-- form 3 -->
+            <form class="form-inline">
+              <div class="form-group m-1">
+                <select class="form-control">
+                  <option value="">Select Course</option>
+                  <option value="">Full Lenght Course</option>
+                  <option value="">Midium Lenght Course</option>
+                  <option value="">Small Length Course</option>
+                </select>
+              </div>
+
+              <div class="form-group m-1">
+                <label for="body"></label>
+                <textarea
+                  rows="4"
+                  cols="40"
+                  name="editor1"
+                  class="form-control"
+                  placeholder="Goals for English language class- what do you hope to improve/what knowledge do you hope to gain by taking classes with Left Handed English?"
+                ></textarea>
+              </div>
+            </form>
+            <form class="form-inline">
+              <div class="form-group m-1">
+                <label for="body"></label>
+                <textarea
+                  rows="3"
+                  cols="70"
+                  name="editor1"
+                  class="form-control"
+                  placeholder="Any questions or comments for the teacher?"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button
+              class="btn btn-org btn-lg text-white brd-blk"
+              data-dismiss="modal"
+            >
+              Book Class Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- SCRIPTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Get the current year for the copyright
+      $('#year').text(new Date().getFullYear());
+    </script>
+  </body>
+</html>

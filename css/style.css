@@ -1,0 +1,236 @@
+/* mian header section bg */
+.bg-black {
+  background: #000;
+}
+.navbar .nav-item.active {
+  border-left: #fc6600 3px solid;
+}
+/* btn-orange */
+.btn-org {
+  background: #fc6600;
+  color: #fff;
+}
+/* text color */
+.orange {
+  color: #fc6600 !important;
+  opacity: 1.5;
+}
+
+.navbar .nav-item.active {
+  color: #fc6600 !important;
+}
+
+/* light bg color */
+.shade {
+  background: #fff5db;
+  border-radius: 5px;
+  height: 150px;
+  width: 250px;
+}
+/* video section bg */
+.vid {
+  background: #fff5db;
+}
+
+/* main section btn */
+.out-btn,
+.shade,
+.vid-btn,
+.vid-div,
+.blog-div {
+  border-right: #fc6600 4px solid;
+  border-bottom: #fc6600 4px solid;
+}
+.brd-blk {
+  border-right: #000 4px solid;
+  border-bottom: #000 4px solid;
+}
+/* flex-btn */
+.btn-flx {
+  padding: 0.25rem 3rem !important ;
+}
+/* crd border */
+.card {
+  border: none;
+}
+
+/* card text */
+.p-crd {
+  padding-right: 6rem !important;
+  padding-top: 2rem !important;
+  text-align: left;
+}
+/* card title */
+.card-title {
+  padding-right: 10rem !important;
+}
+
+/* vdieo section btn */
+.vid-btn {
+  background: #000;
+}
+/* vid text */
+.p-vid {
+  line-height: 2;
+  font-size: 20px;
+}
+
+.h-vid {
+  line-height: 1.4;
+}
+/* vid-div */
+.vid-div {
+  border-radius: 5px;
+  margin-top: 0.8rem;
+  height: 500px;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .vid-div {
+    height: 200px;
+  }
+}
+
+/*PLAY btn-row */
+.btn-row {
+  margin-top: 28%;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .btn-row {
+    margin-top: 10%;
+  }
+}
+
+.btn-col {
+  margin-left: 40%;
+}
+
+@media only screen and (max-width: 62.5em) {
+  .btn-col {
+    margin-left: 28%;
+  }
+}
+
+.btn-bg {
+  position: relative;
+  background-color: grey;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+}
+/* icon hover */
+.icon:hover {
+  color: #17a2b8 !important;
+}
+
+.tbl,
+.tbl-bdy {
+  border: grey 0.6px solid;
+}
+/* bdr-btm */
+.bdr-btm {
+  border-bottom: grey 0.6px solid;
+}
+
+/* tym */
+.tym {
+  font-size: 25px;
+}
+/* black-div */
+.blog-div {
+  border-radius: 5px;
+  height: 170px;
+  width: 310px;
+}
+
+/* CALENDER */
+
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+/* Month header */
+.month {
+  padding: 70px 25px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 12px;
+  color: #777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important;
+}
+/* About section text */
+.txt-vis {
+  font-family: 'Dancing Script', cursive;
+  font-weight: 700 !important;
+  font-size: 30px !important;
+}
+
+/* Search Courses */
+.srch {
+  border-radius: 8px;
+}
